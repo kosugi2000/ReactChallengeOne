@@ -1,0 +1,365 @@
+/* ここから下に記載していく */
+.wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #222222;
+}
+
+.header {
+  display: flex;
+  font-size: 21px;
+  /* background-color: blueviolet; */
+  text-align: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: auto;
+  margin: 0;
+}
+
+.headerlogo {
+  /* background-color: thistle; */
+  justify-content: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.nav_list {
+  display: flex;
+  font-size: 21px;
+  align-items: center;
+  /* background-color: yellow; */
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+.nav_list2 {
+  margin: 0 0 0 50px;
+}
+
+a:link {
+  color: #222222;
+}
+a:visited {
+  color: #222222;
+}
+a {
+  text-decoration: none;
+}
+
+.mainbg {
+  width: 1200px;
+  position: relative; /*相対配置*/
+}
+.mainbgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* background-color: tomato; */
+  color: #fff;
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  /* align-items: center; */
+  text-align: center;
+  /* -ms-transform: translate(-50%,-50%); */
+  /* -webkit-transform: translate(-50%,-50%); */
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  /* font-size: 7.2rem; */
+  /* font-size:5vw;72/1440=0.05→0.01=1vw */
+  /* font-weight: bold; */
+  /* letter-spacing: 0.1em;  */
+}
+
+.mainbgcomment {
+  margin-top: 30px;
+}
+
+.mainvisual {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about {
+  color: #ffd61a;
+  margin: 60px 0 0 0;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+  margin: 30px 0 52px 0;
+  /* background-color:pink; */
+}
+p {
+  font-size: 16px;
+  line-height: 200%;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.maintext {
+  margin-bottom: 24px;
+  /* background-color: yellow; */
+}
+
+.photos {
+  display: flex;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  justify-content: center;
+  background-color: yellow;
+  margin: 72px 0 60px 0;
+}
+
+.course {
+  margin: 0px 0 40px 0;
+}
+
+.nouen {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.nouentext {
+  width: 480px;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  /* background-color:red; */
+}
+
+.coursetext0 {
+  font-size: 24px;
+  text-align: center;
+  line-height: 24px;
+  padding-bottom: 32px;
+  font-weight: bold;
+  text-align: left;
+  /* background-color:red; */
+}
+
+.coursetext1 {
+  text-align: left;
+  /* background-color:red; */
+}
+
+.lesson {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: #fafafa;
+  /* background-color: yellow; */
+}
+
+.newstitle {
+  margin: 60px 0 0 0;
+  color: #ffd61a;
+}
+
+.newstitle2 {
+  margin: 22px 0 52px 0;
+}
+
+.news {
+  display: flex;
+  max-width: 1200px;
+  height: auto;
+  justify-content: center;
+}
+
+.news1 {
+  margin-left: 15px;
+  margin-right: 15px;
+  /* background-color: yellow; */
+  /* width: 300px; */
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}
+.news2 {
+  margin-left: 15px;
+  margin-right: 15px;
+
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}
+.news3 {
+  margin-left: 15px;
+  margin-right: 15px;
+
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}
+.date {
+  text-align: left;
+  margin: 22px 0 8px 0;
+}
+.blog {
+  text-align: left;
+  width: 300px;
+}
+
+.hover2 {
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.hover2:hover {
+  opacity: 0.6;
+}
+
+.courseimg {
+  margin: 0 0 0 50px;
+}
+.hover1 {
+  display: flex;
+  transition: all 1s linear 0s;
+  width: 300px;
+  height: 60px;
+  margin: 60px auto;
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #ffd61a;
+  cursor: pointer;
+  justify-content: center;
+  color: white;
+}
+
+.hover1:hover {
+  transform: rotateX(360deg);
+}
+
+dl {
+  /* float: left; */
+  /* display: flex; */
+  /* background-color: teal; */
+  margin: 45px 0 45px 0;
+  /* text-align: center; */
+
+  /* margin: 0 auto; */
+}
+.accesswrap {
+  background-color: #fafafa;
+}
+.access {
+  padding: 60px 0 0 0;
+}
+
+.access1 {
+  display: flex;
+  justify-content: center;
+}
+dt {
+  float: left;
+  clear: left;
+  width: 120px;
+  margin: 15px 5px 15px 0;
+  /* background-color: yellow; */
+}
+dd {
+  float: left;
+  border: 10px;
+  /* border-color: turquoise; */
+  /* background-color: red; */
+  width: 400px;
+
+  margin: 15px 0px 15px 0;
+}
+
+.contacttitle {
+  margin: 60px 0 0 0;
+}
+.contacttitle1 {
+  margin: 30px 0 60px 0;
+  /* background-color: red; */
+}
+.contacttext {
+  margin: 22px 0 22px 0;
+}
+
+.jikken {
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+}
+
+.formset {
+  display: flex;
+  justify-content: start;
+  border: solid 1px #cacaca;
+  border-left: none;
+  border-right: none;
+  margin: 0px;
+}
+
+.form-title {
+  width: 240px;
+  /* background-color: yellow; */
+  margin: 8px 0 8px 16px;
+}
+.form-item {
+  width: 400px;
+  /* background-color: red; */
+  margin: 0;
+  border-left: solid #cacaca 1px;
+}
+
+.form-parts {
+  width: 328px;
+  height: 36px;
+  margin: 8px 0px 8px 8px;
+}
+
+.form-label {
+  line-height: 40px;
+  /* background-color :red; */
+}
+/* .form-label-wrap{
+  margin: 8px 0 24px 8px;
+
+} */
+
+.form-parts2 {
+  width: 320px;
+  height: 100px;
+  margin: 8px 0px 8px 8px;
+}
+
+.submit {
+  display: flex;
+  background-color: #ffd61a;
+  color: white;
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  justify-content: center;
+  border-style: none;
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: #707070;
+  color: white;
+  text-align: center;
+  padding: 22px 0 22px 0;
+  margin: 140px 0 0 0;
+}
